@@ -1,6 +1,6 @@
 # BT Call Relay
 
-**Version 1.5** (build 6) · 2026-10-15
+**Version 2.0** (build 7) · 2026-10-15
 
 Dial from a phone **without** a SIM (Samsung S25 Ultra) and have a phone **with** a SIM (Redmi Note 13 Pro)
 place the call, over Bluetooth. The same APK goes on both phones; you pick the role on first launch.
@@ -63,6 +63,7 @@ Output: `app/build/outputs/apk/release/app-release.apk`. Bump `versionCode` in `
 
 ## Version history
 
+- **2.0** (build 7, 2026-10-15): New One UI look matching the S25 Ultra Phone app, with Keypad, Recents and Contacts tabs. The app is now called Dialer.
 - **1.5** (build 6, 2026-10-15): Call history, missed-call notifications, Mute and Speaker buttons, and quick-reply texts.
 - **1.4** (build 5, 2026-10-15): SIM 2 (Onic) is now the default for texts, with an option to switch.
 - **1.3** (build 4, 2026-10-15): Hotspot switch is back, and texts can be sent from SIM 1 or SIM 2 on the Samsung.
