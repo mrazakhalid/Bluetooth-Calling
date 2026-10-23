@@ -1,6 +1,6 @@
 # BT Call Relay
 
-**Version 2.3** (build 10) · 2026-10-23
+**Version 2.3.1** (build 11) · 2026-10-23
 
 Dial from a phone **without** a SIM (Samsung S25 Ultra) and have a phone **with** a SIM (Redmi Note 13 Pro)
 place the call, over Bluetooth. The same APK goes on both phones; you pick the role on first launch.
@@ -63,6 +63,7 @@ Output: `app/build/outputs/apk/release/app-release.apk`. Bump `versionCode` in `
 
 ## Version history
 
+- **2.3.1** (build 11, 2026-10-23): Removed the READ_SMS permission so the update installs over the old app again.
 - **2.3** (build 10, 2026-10-23): Call control on the Redmi: keypad tones during calls, hold, merge and swap. Also Redmi battery and signal, OTP quick copy, old SMS import and auto-reply.
 - **2.2** (build 9, 2026-10-16): Contact search while typing digits on the keypad, an editable number with a cursor, and Samsung-style Messages.
 - **2.1** (build 8, 2026-10-15): Size and layout fixes so the new screens match the S25 Ultra.
