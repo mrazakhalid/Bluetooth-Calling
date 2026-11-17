@@ -5,3 +5,4 @@ local.properties
 keystore/
 *.apk
 .kotlin/
+CLAUDE.md
